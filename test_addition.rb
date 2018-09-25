@@ -1,12 +1,9 @@
 require "minitest/autorun"
+require_relative "addition.rb"
 class My_test < Minitest::Test
-	def add(one,two)
-		one+two
-	end
 	def test_setuptest
 		assert_equal(1,1)
 	end
-
 	# def test_setuptest1
 	# 	assert_equal("Pork",1)
 	# end
