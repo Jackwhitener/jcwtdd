@@ -20,14 +20,5 @@ class My_test < Minitest::Test
 		results = add(arg1,arg2)
 		assert_equal(10,results)
 	end
-	def test_multiply
-		assert_equal(25,multiply(5,5))
-	end
-	def test_divide
-		assert_equal(10,divide(30,3))
-	end
-	def test_subtract
-		assert_equal(2,subtract(4,2))
-	end
 
 end
